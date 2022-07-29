@@ -4,7 +4,6 @@ import telepot
 from telepot.loop import MessageLoop
 from pathlib import Path
 import datetime
-import zipfile
 import glob
 import subprocess
 import logging
@@ -87,7 +86,7 @@ def run_script(chat_id):
 
 
 # replace XXXX.. with your token
-TOKEN = "5573560202:AAGq28cQ64v1X0-duHe-1rCcQ5Z1UuYkKi0"
+TOKEN = "XXXXXXXXXXXXXXXX"
 
 bot = telepot.Bot(TOKEN)
 MessageLoop(bot, handle).run_as_thread()
