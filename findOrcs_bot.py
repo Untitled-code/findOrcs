@@ -1,7 +1,8 @@
 # findOrcs.py - Opens several Bingo search results for Russian sites
 
 from bs4 import BeautifulSoup
-import openpyxl, os
+#import openpyxl
+import os
 import time
 import datetime
 import urllib.parse

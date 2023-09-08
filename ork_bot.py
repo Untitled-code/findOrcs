@@ -86,7 +86,7 @@ def run_script(chat_id):
 
 
 # replace XXXX.. with your token
-TOKEN = "XXXXXXXXXXXXXXXX"
+TOKEN = os.environ.get('ORKBOT')
 
 bot = telepot.Bot(TOKEN)
 MessageLoop(bot, handle).run_as_thread()
